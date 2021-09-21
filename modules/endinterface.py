@@ -5,8 +5,8 @@ Created on 16 Sep 2021
 '''
 import sys
 import pygame 
-import cfg
-from pickle import FALSE
+
+
 
 def showEndInterface(screen, cfg, score, highest_score):
     font_big = pygame.font.Font(cfg.FONT_PATH, 60)
